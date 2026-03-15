@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased overflow-x-hidden;
+  background: radial-gradient(circle at 50% 0%, #0c4a6e 0%, #020617 50%);
+}
+
+.glass-card {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-slate-700/50 shadow-2xl;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
+}
+
+.glass-input {
+  @apply bg-slate-950/50 border border-slate-700/50 focus:border-brand-500/50 focus:ring-2 focus:ring-brand-500/20 transition-all duration-300;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+}
+

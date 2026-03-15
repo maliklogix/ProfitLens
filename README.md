@@ -1,75 +1,90 @@
-# 💎 ProfitLens
+# 💎 ProfitLens: Precision Sourcing Architecture
 
-**ProfitLens** is a premium, high-performance profit calculator designed for professional Amazon wholesale sourcing. Built with a focus on precision, speed, and a cutting-edge aesthetic, it provides absolute clarity for your investment decisions.
-
-![ProfitLens Preview](file:///C:/Users/malik/.gemini/antigravity/brain/ed35a0a3-5bb8-4bda-8b64-b75e3ec0ee44/initial_load_check_1773569685504.png)
-
-## ✨ Features
-
--   **⚡ Real-Time Analysis**: Instant calculation of Net Profit, Margin, and ROI as you type.
--   **🎨 Glassmorphic UI**: A stunning, modern interface with 3D background effects and smooth micro-animations.
--   **🧮 Smart Fee Estimation**: Automatic referral fee calculation based on Amazon categories and sales prices.
--   **📈 Visual Hierarchy**: Designed for maximum readability and quick data absorption.
--   **🚀 Pro-Grade Stack**: Built with React 18, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber.
-
-## 🛠️ Tech Stack
-
--   **Frontend**: React + TypeScript (Vite)
--   **3D Elements**: React Three Fiber + Three.js
--   **Animations**: Framer Motion
--   **Styling**: Tailwind CSS (Custom Design System)
--   **Icons**: Lucide React
-
-## 🚀 Getting Started
-
-### Prerequisites
-
--   Node.js (v18+)
--   npm or yarn
-
-### Installation
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/maliklogix/ProfitLens.git
-    cd ProfitLens
-    ```
-
-2.  **Install dependencies**:
-    ```bash
-    npm install --legacy-peer-deps
-    ```
-
-3.  **Start the development server**:
-    ```bash
-    npm run dev
-    ```
-
-4.  **Open the app**:
-    Navigate to `http://localhost:5173` in your browser.
-
-## 🔍 Project Structure
-
-```text
-ProfitLens/
-├── src/
-│   ├── components/         # Modernized components
-│   │   ├── Background3D.tsx # Subtle 3D Aura effects
-│   │   └── SingleDealCalculator.tsx # The core analysis engine
-│   ├── App.tsx             # Main layout & animations
-│   ├── main.tsx            # Entry point
-│   └── styles.css          # Glassmorphism & custom gradients
-├── public/                 # Static assets
-├── tailwind.config.cjs      # Custom design system
-└── index.html              # Optimized HTML template
-```
-
-## 📬 Contact & Support
-
-**Malik Logix**
--   **GitHub**: [@maliklogix](https://github.com/maliklogix)
--   **Project**: [ProfitLens](https://github.com/maliklogix/ProfitLens)
+> **Absolute Clarity for the Modern Amazon Architect.**  
+> Uncover hidden margins, simulate complex fee structures, and leverage AI-driven insights to dominate the wholesale marketplace.
 
 ---
 
-Developed with ❤️ for the Amazon Seller Community.
+## 🚀 The Vision
+
+ProfitLens isn't just a calculator; it's a **Cognitive Sourcing Layer**. In an era where Amazon's fee structure is increasingly fragmented, ProfitLens provides a unified, glass-morphic interface to visualize your capital flow with mathematical certainty.
+
+Designed for elite sellers who demand more than "rough estimates," ProfitLens integrates advanced simulation logic with a premium aesthetic to transform data into strategy.
+
+---
+
+## ✨ Core Pillars of Excellence
+
+### 1. 🏗️ Nexus Advanced Fee Infrastructure
+Amazon's 2024 fee updates introduced granular complexities. ProfitLens handles these through a dedicated **Advanced Fee Module**:
+- **Closing & Placement Fees**: Fixed per-unit overheads accounted for instantly.
+- **Inbound Logistics**: Integrated shipping and placement service cost simulation.
+- **Low-Inventory Architecture**: Protect your margins from new inventory performance penalties.
+- **Return & Misc Processing**: Accounting for the reality of "cost of doing business."
+
+### 2. 🧠 Cognitive Layer (Mistral AI)
+Stop guessing and start analyzing. Our integrated **AI Analyzer** (powered by Mistral) scans your deal metrics:
+- **ROI/Margin Synthesis**: Strategic recommendations based on historical safety buffers.
+- **Risk Mitigation**: Immediate flags for "Tight" or "High-Risk" sourcing parameters.
+- **Scaling Strategies**: AI-driven advice on whether to go deep or wide on inventory.
+
+### 3. 🎨 Sophisticated Visual Logic
+- **Glassmorphic Interactive Grid**: A premium design system that keeps you focused.
+- **Dynamic 3D Environment**: Interactive background aura for a focused sourcing session.
+- **Micro-Animation Feedback**: Instant visual cues (Red/Green) for profit thresholds.
+
+---
+
+## 📈 Amazon Fee Mastery: The Knowledge Base
+
+Succeeding on Amazon requires understanding the three primary layers of capital attrition. ProfitLens is built on this knowledge:
+
+| Fee Type | Complexity | Impact | ProfitLens Logic |
+| :--- | :--- | :--- | :--- |
+| **Referral Fee** | Category-Dependent | Primary | Auto-estimated with math-min logic (£0.25 floor). |
+| **FBA Fulfillment** | Sizing/Weight Base | High | Static input with granular adjustment capability. |
+| **Logistics Layer** | Placement/Shipping | Variable | Handled via the **Advanced Fee Module** toggle. |
+| **Performance Layer** | Storage/Low-Inv | Hidden | Real-time simulation of storage and inventory penalties. |
+
+---
+
+## 🛠️ Technical Architectural Stack
+
+ProfitLens is engineered for speed and reliability, ensuring zero latency during high-stakes sourcing sessions.
+
+- **Engine**: React 18 + TypeScript (Strict Type Safety)
+- **Fluid UI**: Tailwind CSS + Custom Design System
+- **Motion**: Framer Motion (State-driven transitions)
+- **3D Aura**: React Three Fiber + Three.js
+- **Intelligence**: Mistral API Integration
+
+---
+
+## 🚀 Deployment & Installation
+
+### Rapid Start
+```bash
+# Clone the architecture
+git clone https://github.com/maliklogix/ProfitLens.git
+
+# Initialize dependencies
+npm install --legacy-peer-deps
+
+# Launch the engine
+npm run dev
+```
+
+---
+
+## 📬 Nexus Contact & Elite Support
+
+Developed and maintained by **Malik Logix**. We are open for architectural consultations and custom sourcing tool development.
+
+- **📞 Direct Line**: [+92 315 8304046](tel:+923158304046)
+- **🌐 GitHub**: [@maliklogix](https://github.com/maliklogix)
+- **📧 Project Hub**: [ProfitLens Repository](https://github.com/maliklogix/ProfitLens)
+
+---
+
+> "Precision sourcing is the only delta between a seller and an architect."  
+> — **Developed with ❤️ for the Amazon Seller Community by Farooq (@maliklogix).**

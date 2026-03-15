@@ -2,18 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-slate-950 text-slate-50 antialiased overflow-x-hidden;
-  background: radial-gradient(circle at 50% 0%, #0c4a6e 0%, #020617 50%);
+@layer base {
+  :root {
+    --bg-primary: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+  }
+
+  .dark {
+    --bg-primary: #020617;
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+  }
+
+  body {
+    @apply bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300 font-sans antialiased overflow-x-hidden;
+  }
 }
 
-.glass-card {
-  @apply bg-slate-900/40 backdrop-blur-xl border border-slate-700/50 shadow-2xl;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
-}
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-xl border border-slate-200/70 bg-white/90 dark:bg-slate-900/80 shadow-sm transition-all duration-200;
+  }
 
-.glass-input {
-  @apply bg-slate-950/50 border border-slate-700/50 focus:border-brand-500/50 focus:ring-2 focus:ring-brand-500/20 transition-all duration-300;
+  .dark .glass-card {
+    @apply border-white/10 shadow-sm;
+  }
+
+  .glass-input {
+    @apply bg-white border border-slate-200 text-slate-900 shadow-none focus:border-slate-900 focus:ring-2 focus:ring-slate-900/5 transition-all duration-200 outline-none;
+  }
+
+  .dark .glass-input {
+    @apply bg-slate-900/70 border-white/10 text-slate-100 shadow-none focus:border-white focus:ring-2 focus:ring-white/10;
+  }
+
+  .glass-input::placeholder {
+    @apply text-slate-400;
+  }
+
+  .dark .glass-input::placeholder {
+    @apply text-slate-500;
+  }
+
+  .dropdown-classic {
+    @apply bg-white dark:bg-slate-900 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-slate-100 outline-none appearance-none;
+    transition: none !important;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -21,10 +56,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-slate-950;
+  @apply bg-transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 hover:bg-slate-700;
 }
 

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./index.html', './src/**/*.{ts,tsx,jsx,js}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -20,6 +21,18 @@ module.exports = {
           900: '#0c4a6e',
           950: '#082f49',
         },
+        surface: {
+          light: '#ffffff',
+          dark: '#0f172a',
+        },
+        primary: {
+          light: '#0f172a',
+          dark: '#ffffff',
+        },
+        secondary: {
+          light: '#64748b',
+          dark: '#94a3b8',
+        }
       },
       animation: {
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
@@ -33,6 +46,7 @@ module.exports = {
       },
       backgroundImage: {
         'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05))',
+        'glass-gradient-dark': 'linear-gradient(135deg, rgba(15, 23, 42, 0.2), rgba(15, 23, 42, 0.1))',
       }
     }
   },

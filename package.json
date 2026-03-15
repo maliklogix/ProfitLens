@@ -2,7 +2,7 @@
   "name": "amazon-product-profit-sourcing",
   "version": "0.1.0",
   "private": true,
-  "description": "Single Wholesale Profit Calculator UI for Amazon product sourcing (React + TypeScript + Tailwind).",
+  "description": "💎 ProfitLens: A premium, AI-powered Amazon profit analyzer for professional wholesale sourcing. Developed by Farooq (@maliklogix).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
